@@ -1,4 +1,5 @@
-﻿namespace Pz_7
+﻿using System;
+namespace Pz_7
 {
     internal class Program
     {
