@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_6", "Pz_6\Pz_6.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_5", "Pz_5\Pz_5.csproj", "{B287ED88-628F-48A3-A050-DBF5093110EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz_7", "Pz_7\Pz_7.csproj", "{96D98DAF-3540-47D7-A069-FF4D3B4873F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_7", "Pz_7\Pz_7.csproj", "{96D98DAF-3540-47D7-A069-FF4D3B4873F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz_9", "Pz_9\Pz_9.csproj", "{7EA3499F-5B68-4906-8B4E-3C7E7DFE12A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_9", "Pz_9\Pz_9.csproj", "{7EA3499F-5B68-4906-8B4E-3C7E7DFE12A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Игра_Шмидт_Бойко", "Игра_Шмидт_Бойко\Игра_Шмидт_Бойко.csproj", "{110FEEB9-3B0D-4327-815C-7FA4BA7484D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Не разозли Сталина!", "Не разозли Сталина!\Не разозли Сталина!.csproj", "{1D905D5F-D64C-4906-B440-D2824688236A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{7EA3499F-5B68-4906-8B4E-3C7E7DFE12A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EA3499F-5B68-4906-8B4E-3C7E7DFE12A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EA3499F-5B68-4906-8B4E-3C7E7DFE12A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{110FEEB9-3B0D-4327-815C-7FA4BA7484D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110FEEB9-3B0D-4327-815C-7FA4BA7484D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110FEEB9-3B0D-4327-815C-7FA4BA7484D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110FEEB9-3B0D-4327-815C-7FA4BA7484D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D905D5F-D64C-4906-B440-D2824688236A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D905D5F-D64C-4906-B440-D2824688236A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D905D5F-D64C-4906-B440-D2824688236A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D905D5F-D64C-4906-B440-D2824688236A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
