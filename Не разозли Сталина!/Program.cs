@@ -1,4 +1,5 @@
 ﻿namespace Не_разозли_Сталина_
+
 {
     internal class Program
     {
