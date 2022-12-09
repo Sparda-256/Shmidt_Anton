@@ -10,51 +10,86 @@
             {
                 massiv[i] = new byte[random.Next(3, 30)];
             }
-            for (byte j = 0; j < 10; j++)
+            for (byte j = 0; j < massiv.Length; j++)
             {
                 for (byte k = 0; k < massiv[j].Length; k++)
                 {
                     massiv[j][k] = Convert.ToByte(random.Next(100));
                 }
             }
-            for (byte j = 0; j < massiv.Length; j++)
+            Console.WriteLine("Случайно-сгенерированный ступенчатый массив:");
+            for (byte o = 0; o < massiv.Length; o++)
             {
-                for (byte k = 0; k < massiv[j].Length; k++)
+                for (byte k = 0; k < massiv[o].Length; k++)
                 {
-                    Console.Write(massiv[j][k] + "\t");
+                    Console.Write(massiv[o][k] + "\t");
                 }
                 Console.WriteLine();
             }
-            byte[] poslednie = new byte [massiv.Length];//Задание 3
-            Console.WriteLine("Последние элементы каждой строки:");
+            byte[] poslednie = new byte[massiv.Length];//Задание 3
+            Console.WriteLine("Последние элементы каждой строки массива:");
             for (int i = 0; i < massiv.Length; i++)
             {
                 poslednie[i] = massiv[i][massiv[i].Length - 1];
                 Console.WriteLine(massiv[i][massiv[i].Length - 1]);
             }
-            byte[] maxnummer = new byte [10];//Задание 4
+            byte[] maxnummer = new byte[10];//Задание 4
             for (byte i = 0; i < massiv.Length; i++)
             {
                 for (int j = 0; j < massiv[i].Length; j++)
                 {
                     if (maxnummer[i] < massiv[i][j])
                     {
-                        maxnummer[i]= massiv[i][j];
+                        maxnummer[i] = massiv[i][j];
                     }
                 }
             }
-            Console.WriteLine("Максимальный элемент каждой строки:");
+            Console.WriteLine("Максимальный элемент каждой строки массива:");
             foreach (byte item in maxnummer)
             {
                 Console.WriteLine(item);
             }
-            for (byte j = 0; j < massiv.Length; j++)//Задание 5
+            byte[] maxnummer2 = maxnummer;//Задание 5
+            for (int j = 0; j < massiv.Length; j++)
             {
-                for (byte k = 0; k < massiv[j].Length; k++)
+                for (int k = 0; k < massiv[j].Length; k++)
                 {
-                    Console.Write(massiv[j][k] + "\t");
+                    if (massiv[j][k] == maxnummer[j])
+                    {
+                        massiv[j][k] = massiv[j][0];
+                    }
+                }
+            }
+            for (byte j = 0; j < massiv.Length; j++)
+            {
+                massiv[j][0] = maxnummer2[j];
+            }
+            Console.WriteLine("Замена первого и максимального элемента массива:");
+            for (byte o = 0; o < massiv.Length; o++)
+            {
+                for (byte k = 0; k < massiv[o].Length; k++)
+                {
+                    Console.Write(massiv[o][k] + "\t");
                 }
                 Console.WriteLine();
+            }
+            Console.WriteLine("Ревёрс каждой строки массива:");//Задание 6
+            for (int o = 0; o < massiv.Length; o++)
+            {
+                for (int k = massiv[o].Length - 1; k >= 0; k--)
+                {
+                    Console.Write(massiv[o][k] + "\t");
+                }
+                Console.WriteLine();
+            }
+            byte[] sredneeznachenie = new byte[10];//Задание 7
+            Console.WriteLine("Среднее значение в каждой строке массива:");
+            for (int i = 0; i < massiv.Length; i++)
+            {
+                for (int k = 0; k < massiv.Length; k++)
+                {
+                    sredneeznachenie[i] = massiv[i][];
+                }
             }
         }
     }
