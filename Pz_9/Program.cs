@@ -7,9 +7,7 @@
             Random random = new Random();
             byte[][] massiv = new byte[10][];
             for (byte i = 0; i < massiv.Length; i++)
-            {
-                massiv[i] = new byte[random.Next(3, 30)];
-            }
+            massiv[i] = new byte[random.Next(3, 30)];
             for (byte j = 0; j < massiv.Length; j++)
             {
                 for (byte k = 0; k < massiv[j].Length; k++)
