@@ -82,15 +82,18 @@
                 }
                 Console.WriteLine();
             }
-            byte[] sredneeznachenie = new byte[10];//Задание 7
-            Console.WriteLine("Среднее значение в каждой строке массива:");
-            for (int i = 0; i < massiv.Length; i++)
+            double[] sredneeznachenie = new double[10];//Задание 7
+            double[] summa = new double[10];
+            for (byte i = 0; i < massiv.Length; i++)
             {
-                for (int k = 0; k < massiv.Length; k++)
-                {
-                    sredneeznachenie[i] = massiv[i][];
-                }
+                for (byte k = 0; k < massiv[i].Length; k++)
+                summa[i] += Convert.ToDouble(massiv[i][k]);
             }
+            for (byte i = 0; i < massiv.Length; i++)
+                sredneeznachenie[i] = Convert.ToDouble(summa[i] / massiv[i].Length);
+            Console.WriteLine("Среднее значение в каждой строке массива:");
+            for (byte i = 0; i < massiv.Length; i++)
+                Console.WriteLine(Convert.ToDouble(sredneeznachenie[i]));
         }
     }
 }
