@@ -23,9 +23,7 @@
                 }
             }
             foreach (string item in textArray)
-            {
                 Console.WriteLine(item);
-            }
         }
     }
 }
