@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Игра_Шмидт_Бой�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Не разозли Сталина!", "Не разозли Сталина!\Не разозли Сталина!.csproj", "{1D905D5F-D64C-4906-B440-D2824688236A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz_10", "Pz_10\Pz_10.csproj", "{4D8776C3-C177-4EC8-A23F-DAB78751CC39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_10", "Pz_10\Pz_10.csproj", "{4D8776C3-C177-4EC8-A23F-DAB78751CC39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz_11", "Pz_11\Pz_11.csproj", "{171FF83A-E09D-457C-AA00-14033F3EA3F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{4D8776C3-C177-4EC8-A23F-DAB78751CC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D8776C3-C177-4EC8-A23F-DAB78751CC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D8776C3-C177-4EC8-A23F-DAB78751CC39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171FF83A-E09D-457C-AA00-14033F3EA3F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171FF83A-E09D-457C-AA00-14033F3EA3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171FF83A-E09D-457C-AA00-14033F3EA3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171FF83A-E09D-457C-AA00-14033F3EA3F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
