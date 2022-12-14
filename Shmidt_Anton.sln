@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_7", "Pz_7\Pz_7.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_9", "Pz_9\Pz_9.csproj", "{7EA3499F-5B68-4906-8B4E-3C7E7DFE12A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Игра_Шмидт_Бойко", "Игра_Шмидт_Бойко\Игра_Шмидт_Бойко.csproj", "{110FEEB9-3B0D-4327-815C-7FA4BA7484D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Игра_Шмидт_Бойко", "Игра_Шмидт_Бойко\Игра_Шмидт_Бойко.csproj", "{110FEEB9-3B0D-4327-815C-7FA4BA7484D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Не разозли Сталина!", "Не разозли Сталина!\Не разозли Сталина!.csproj", "{1D905D5F-D64C-4906-B440-D2824688236A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Не разозли Сталина!", "Не разозли Сталина!\Не разозли Сталина!.csproj", "{1D905D5F-D64C-4906-B440-D2824688236A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz_10", "Pz_10\Pz_10.csproj", "{4D8776C3-C177-4EC8-A23F-DAB78751CC39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1D905D5F-D64C-4906-B440-D2824688236A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D905D5F-D64C-4906-B440-D2824688236A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D905D5F-D64C-4906-B440-D2824688236A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D8776C3-C177-4EC8-A23F-DAB78751CC39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8776C3-C177-4EC8-A23F-DAB78751CC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8776C3-C177-4EC8-A23F-DAB78751CC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8776C3-C177-4EC8-A23F-DAB78751CC39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
