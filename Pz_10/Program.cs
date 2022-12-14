@@ -6,18 +6,17 @@
         {
             string stroka = "";
             int a = 1;
-            int b = 0;
+            int count = 0;
+            Console.WriteLine("Пока строка не начинается с '_' вы можете бесконечно их вводить\nМы выведем последнюю строку столько раз сколько вы ввели строк:");
             while (a != 0)
             {
                 stroka = Console.ReadLine();
                 a = Convert.ToInt32(stroka.IndexOf("_"));
-                b += 1;
+                count += 1;
             }
             Console.WriteLine("Вывод:");
-            for (int i = 0; i < b; i++)
-            {
+            for (int i = 0; i < count; i++)
                 Console.WriteLine(stroka);
-            }
         }
     }
 }
