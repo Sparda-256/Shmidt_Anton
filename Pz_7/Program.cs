@@ -12,18 +12,14 @@ namespace Pz_7
             {
                 chars[i] = Convert.ToChar(Console.ReadLine());
                 if (maxNum < chars[i])
-                {
                     maxNum = chars[i];
-                }
             }
             Console.WriteLine("Самая большая цифра:");
             Console.WriteLine(maxNum);
             Console.WriteLine("Все цифры в порядке возрастания:");
             Array.Sort(chars);
             for (byte j = 0; j < chars.Length; j++)
-            {
                 Console.WriteLine(chars[j]);
-            }
         }
     }
 }
