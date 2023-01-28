@@ -11,7 +11,6 @@
                 if (char.IsLower(puk[i]))
                 {
                     antonout += puk[i].ToString().ToUpper();
-
                 }
                 else
                 {
