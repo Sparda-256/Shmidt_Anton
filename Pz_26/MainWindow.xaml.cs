@@ -24,5 +24,23 @@ namespace Pz_26
         {
             InitializeComponent();
         }
+
+        private void acceptButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Действие выполнено");
+        }
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void escButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close(); // закрытие окна
+         }
+            private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Кнопка нажата");
+        }
     }
 }

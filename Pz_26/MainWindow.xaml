@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pz_26"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Элементы управления" Height="500" Width="500">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top">
+            <Button x:Name="acceptButton" Content="ОК" IsDefault="True" Click="acceptButton_Click" />
+            <Button x:Name="escButton" Content="Выход" IsCancel="True" Click="escButton_Click" />
+            <Menu MinHeight="20"></Menu>
+            <WrapPanel MinHeight="20"></WrapPanel>
+        </StackPanel>
+        <StatusBar MinHeight="20" DockPanel.Dock="Bottom">
+            <Button x:Name="button1" Width="60" Height="30" Content="Нажать" Click="Button_Click" />
+        </StatusBar>
+        <ListBox MinWidth="200" DockPanel.Dock="Left"></ListBox>
+        <RichTextBox></RichTextBox>
+    </DockPanel>
 </Window>

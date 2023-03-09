@@ -7,4 +7,22 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Icons\bold_format_editor_tool_icon_146015.png" />
+    <None Remove="Icons\italic_em_emphasis_format_editor_tool_icon_145968.png" />
+    <None Remove="Icons\savetheapplication_guardar_2958.png" />
+    <None Remove="Icons\success_win_done_mark_icon_145928.png" />
+    <None Remove="Icons\trash_remove_icon_145922.png" />
+    <None Remove="Icons\underline_format_editor_tool_icon_145920.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\bold_format_editor_tool_icon_146015.png" />
+    <Resource Include="Icons\italic_em_emphasis_format_editor_tool_icon_145968.png" />
+    <Resource Include="Icons\savetheapplication_guardar_2958.png" />
+    <Resource Include="Icons\success_win_done_mark_icon_145928.png" />
+    <Resource Include="Icons\trash_remove_icon_145922.png" />
+    <Resource Include="Icons\underline_format_editor_tool_icon_145920.png" />
+  </ItemGroup>
+
 </Project>
