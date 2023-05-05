@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            int count = System.IO.File.ReadAllLines(@"C:\Games\bf.txt").Length;
-            string[] ewq = System.IO.File.ReadAllLines(@"C:\Games\bf.txt");
+            int count = System.IO.File.ReadAllLines(@"C:\Games\text.txt").Length;
+            string[] ewq = System.IO.File.ReadAllLines(@"C:\Games\text.txt");
             for (int i = 0; i < count; i++)
             {
                 if (ewq[i][0] == ewq[i][ewq[i].Length - 1])
