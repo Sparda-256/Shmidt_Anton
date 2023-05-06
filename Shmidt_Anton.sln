@@ -53,11 +53,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_13_v2", "Pz_13_v2\Pz_13_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_14", "Pz_14\Pz_14.csproj", "{644483D5-8C9B-4FED-AAA9-83CD2F5CD48E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz_Faili", "Pz_Faili\Pz_Faili.csproj", "{7A037ADC-E9AA-40FF-8BD6-5C177CC50CE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_Faili", "Pz_Faili\Pz_Faili.csproj", "{7A037ADC-E9AA-40FF-8BD6-5C177CC50CE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz_15", "Pz_15\Pz_15.csproj", "{E52ADF05-E34B-467A-8BA1-A175625B5664}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_15", "Pz_15\Pz_15.csproj", "{E52ADF05-E34B-467A-8BA1-A175625B5664}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz_16", "Pz_16\Pz_16.csproj", "{C5D3493A-C210-426C-BBBF-5DB3E70B2EE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_16", "Pz_16\Pz_16.csproj", "{C5D3493A-C210-426C-BBBF-5DB3E70B2EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz_ConsoleGame", "Pz_ConsoleGame\Pz_ConsoleGame.csproj", "{81C1F43C-806B-428D-8B96-6115C1B40173}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{C5D3493A-C210-426C-BBBF-5DB3E70B2EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5D3493A-C210-426C-BBBF-5DB3E70B2EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5D3493A-C210-426C-BBBF-5DB3E70B2EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C1F43C-806B-428D-8B96-6115C1B40173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C1F43C-806B-428D-8B96-6115C1B40173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C1F43C-806B-428D-8B96-6115C1B40173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C1F43C-806B-428D-8B96-6115C1B40173}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
