@@ -166,11 +166,11 @@
             while (EnemyHp > 0)
             {
                 Console.Clear();
-                Console.WriteLine("Здоровье врага:" + EnemyHp);
-                Console.WriteLine("Ваше здоровье:" + PlayerHp);
+                Console.WriteLine("Здоровье врага: " + EnemyHp);
+                Console.WriteLine("Ваше здоровье: " + PlayerHp);
                 Console.ReadKey();
                 Console.Clear();
-                Console.WriteLine("Враг нанёс вам:" + EnemyHitpower + " урона");
+                Console.WriteLine("Враг нанёс вам: " + EnemyHitpower + " урона");
                 PlayerHp -= EnemyHitpower;
                 if (PlayerHp <= 0)
                 {
@@ -178,7 +178,7 @@
                     Console.WriteLine("Враг вас убил!(\nКоличество шагов:" + shagi);
                     Environment.Exit(0);
                 }
-                Console.WriteLine("Вы нанесли врагу:" + PlayerHitpower + " урона");
+                Console.WriteLine("Вы нанесли врагу: " + PlayerHitpower + " урона");
                 EnemyHp -= PlayerHitpower;
                 Console.ReadKey();
             }
