@@ -20,7 +20,7 @@ namespace Pz_ConsoleGame
             if (keyesc1.Key == ConsoleKey.Escape)
             {
                 Console.Clear();
-                Console.Write("Игра завершена");
+                Console.Write(".Игра завершена");
                 Environment.Exit(0);
             }
             Console.Clear();
@@ -150,7 +150,7 @@ namespace Pz_ConsoleGame
                 FileStream file = new FileStream(@"D:\Игры\Game.txt", FileMode.Append);
                 StreamWriter writer = new StreamWriter(file);
                 Console.Clear();
-                Console.WriteLine("Игра завершена и записана в файл");
+                Console.WriteLine(".Игра завершена и записана в файл");
                 for (int i = 0; i < strings.GetLength(0); i++) // Вывод карты в файл
                 {
                     for (int j = 0; j < strings.GetLength(1); j++)
@@ -198,7 +198,7 @@ namespace Pz_ConsoleGame
                 if (keyesc.Key == ConsoleKey.Escape)
                 {
                     Console.Clear();
-                    Console.WriteLine("Игра завершена и записана в файл");
+                    Console.WriteLine(".Игра завершена и записана в файл");
                     Environment.Exit(0);
                 }
                     Console.Clear();

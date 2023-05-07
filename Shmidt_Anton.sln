@@ -59,7 +59,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_15", "Pz_15\Pz_15.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_16", "Pz_16\Pz_16.csproj", "{C5D3493A-C210-426C-BBBF-5DB3E70B2EE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz_ConsoleGame", "Pz_ConsoleGame\Pz_ConsoleGame.csproj", "{81C1F43C-806B-428D-8B96-6115C1B40173}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_ConsoleGame", "Pz_ConsoleGame\Pz_ConsoleGame.csproj", "{81C1F43C-806B-428D-8B96-6115C1B40173}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
