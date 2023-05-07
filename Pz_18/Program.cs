@@ -60,9 +60,7 @@
                 }
             }
             else
-            {
                 Console.WriteLine("Некорректный ввод");
-            }
         }
     }
 }
