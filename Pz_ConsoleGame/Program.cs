@@ -16,11 +16,11 @@ namespace Pz_ConsoleGame
         static void Main(string[] args)
         {
             Console.WriteLine("Обучение!\n■ - Вы\n♦ - Враг\n♥ - Аптечка\n▲ - Усилитель удара");
-            ConsoleKeyInfo keyesc1 = Console.ReadKey();
+            ConsoleKeyInfo keyesc1 = Console.ReadKey(true);
             if (keyesc1.Key == ConsoleKey.Escape)
             {
                 Console.Clear();
-                Console.Write(".Игра завершена");
+                Console.Write("Игра завершена");
                 Environment.Exit(0);
             }
             Console.Clear();
@@ -99,7 +99,7 @@ namespace Pz_ConsoleGame
         }
         public static void Move(string[,] strings)
         {
-            ConsoleKeyInfo keyInfo = Console.ReadKey();
+            ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 
             if (keyInfo.Key == ConsoleKey.UpArrow)
             {
@@ -150,7 +150,7 @@ namespace Pz_ConsoleGame
                 FileStream file = new FileStream(@"D:\Игры\Game.txt", FileMode.Append);
                 StreamWriter writer = new StreamWriter(file);
                 Console.Clear();
-                Console.WriteLine(".Игра завершена и записана в файл");
+                Console.WriteLine("Игра завершена и записана в файл");
                 for (int i = 0; i < strings.GetLength(0); i++) // Вывод карты в файл
                 {
                     for (int j = 0; j < strings.GetLength(1); j++)
@@ -194,11 +194,11 @@ namespace Pz_ConsoleGame
                 Console.Clear();
                 Console.WriteLine("Здоровье врага: " + EnemyHp);
                 Console.WriteLine("Ваше здоровье: " + PlayerHp);
-                ConsoleKeyInfo keyesc = Console.ReadKey();
+                ConsoleKeyInfo keyesc = Console.ReadKey(true);
                 if (keyesc.Key == ConsoleKey.Escape)
                 {
                     Console.Clear();
-                    Console.WriteLine(".Игра завершена и записана в файл");
+                    Console.WriteLine("Игра завершена и записана в файл");
                     Environment.Exit(0);
                 }
                     Console.Clear();
