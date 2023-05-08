@@ -1,25 +1,27 @@
-﻿
-namespace Pz_21
+﻿namespace Pz_21
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            DateTime Date = Convert.ToDateTime("09/02/2023");
-            Student student = new Student();
-            Console.Write("Имя: "); string A = student.name = Console.ReadLine();
-            Console.Write("Фамилия: "); string B = student.surname = Console.ReadLine();
-            Console.Write("Отчество: "); string C = student.patronymic = Console.ReadLine();
-            Console.Write("Дата рождения: "); string D = student.dateOfBirth = Console.ReadLine();
-            Console.Write("Год начала обучения: "); int E = student.yearOfStudy = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Специальность: "); string F = student.speciality = Console.ReadLine();
-            
-            student.PrintInfo(A, B, C, D, E, F);
-
-            DateTime hirthday = new DateTime(2020, 10, 10);
-            DateTime hirthday2 = new DateTime(E);
-            Console.WriteLine(hirthday2.Year(hirthday));
-            student.GetCourse() ;
+            Student student1 = new Student("Антон", "Шмидт", "Геннадьевич", new DateTime(2005, 7, 18), new DateTime(2021, 9, 1), "Программист");
+            Student student2 = new Student("Антон", "Шмидт", new DateTime(2005, 7, 18), new DateTime(2021, 9, 1), "Программист");
+            Student student3 = new Student("Шмидт", new DateTime(2005, 7, 18), new DateTime(2021, 9, 1), "Программист");
+            Student student4 = new Student(new DateTime(2005, 7, 18), new DateTime(2021, 9, 1), "Программист");
+            Student student5 = new Student("Антон", "Шмидт", "Геннадьевич", new DateTime(2005, 7, 18), "Программист");
+            Student student6 = new Student("Антон", "Шмидт", "Геннадьевич", new DateTime(2005, 7, 18), new DateTime(2021, 9, 1));
+            student1.PrintInfo();
+            Console.WriteLine("Курс: " + student1.GetCourse());
+            student2.PrintInfo();
+            Console.WriteLine("Курс: " + student2.GetCourse());
+            student3.PrintInfo();
+            Console.WriteLine("Курс: " + student3.GetCourse());
+            student4.PrintInfo();
+            Console.WriteLine("Курс: " + student4.GetCourse());
+            student5.PrintInfo();
+            Console.WriteLine("Курс: " + student5.GetCourse());
+            student6.PrintInfo();
+            Console.WriteLine("Курс: " + student6.GetCourse());
         }
     }
 }
