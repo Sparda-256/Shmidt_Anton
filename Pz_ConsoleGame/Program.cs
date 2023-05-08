@@ -28,13 +28,11 @@ namespace Pz_ConsoleGame
         }
         public static void GenerateMap() //генерация карты
         {
-            string[,] array = new string[9, 25];// Заполнение карты 0ями
+            string[,] array = new string[9, 25];// Заполнение карты 
             for (int i = 0; i < array.GetLength(0); i++)
             {
                 for (int j = 0; j < array.GetLength(1); j++)
-                {
                     array[i, j] = " ";
-                }
             }
             Random random = new Random();
             array[4, 12] = "■"; // Добавление Игрока
