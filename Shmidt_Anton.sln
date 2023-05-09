@@ -71,6 +71,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PZ_25_Boyko", "..\..\..\Dow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ_26_Boyko", "..\..\..\Downloads\Telegram Desktop\PZ26\PZ_26_Boyko.csproj", "{031D7F29-C64D-40B6-AB48-F3BE89D99C18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz_22", "Pz_22\Pz_22.csproj", "{3B808DE8-E213-4A6A-A09A-1BB23722C00C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{031D7F29-C64D-40B6-AB48-F3BE89D99C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{031D7F29-C64D-40B6-AB48-F3BE89D99C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{031D7F29-C64D-40B6-AB48-F3BE89D99C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B808DE8-E213-4A6A-A09A-1BB23722C00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B808DE8-E213-4A6A-A09A-1BB23722C00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B808DE8-E213-4A6A-A09A-1BB23722C00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B808DE8-E213-4A6A-A09A-1BB23722C00C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
