@@ -65,7 +65,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_18", "Pz_18\Pz_18.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_19", "Pz_19\Pz_19.csproj", "{FDEF7FC7-850A-467A-B8F6-438CDCC7F0C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz_21", "Pz_21\Pz_21.csproj", "{1108863B-C42B-4C38-9A55-E2DA3A3A6428}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pz_21", "Pz_21\Pz_21.csproj", "{1108863B-C42B-4C38-9A55-E2DA3A3A6428}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PZ_25_Boyko", "..\..\..\Downloads\Telegram Desktop\PZ25\PZ_25_Boyko.csproj", "{7EC58503-6785-4FA2-A54A-2FBD8A9FCC23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ_26_Boyko", "..\..\..\Downloads\Telegram Desktop\PZ26\PZ_26_Boyko.csproj", "{031D7F29-C64D-40B6-AB48-F3BE89D99C18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +205,14 @@ Global
 		{1108863B-C42B-4C38-9A55-E2DA3A3A6428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1108863B-C42B-4C38-9A55-E2DA3A3A6428}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1108863B-C42B-4C38-9A55-E2DA3A3A6428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC58503-6785-4FA2-A54A-2FBD8A9FCC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC58503-6785-4FA2-A54A-2FBD8A9FCC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC58503-6785-4FA2-A54A-2FBD8A9FCC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC58503-6785-4FA2-A54A-2FBD8A9FCC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031D7F29-C64D-40B6-AB48-F3BE89D99C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031D7F29-C64D-40B6-AB48-F3BE89D99C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031D7F29-C64D-40B6-AB48-F3BE89D99C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031D7F29-C64D-40B6-AB48-F3BE89D99C18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
