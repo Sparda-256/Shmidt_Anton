@@ -15,9 +15,7 @@ namespace Pz_22
             set
             {
                 if (value != null)
-                {
                     name = value;
-                }
             }
         }
         string surname;
@@ -27,9 +25,7 @@ namespace Pz_22
             set
             {
                 if (value != null)
-                {
                     surname = value;
-                }
             }
         }
         string patronymic;
@@ -39,9 +35,7 @@ namespace Pz_22
             set
             {
                 if (value != null)
-                {
                     patronymic = value;
-                }
             }
         }
         DateTime dateOfBirth;
@@ -60,9 +54,7 @@ namespace Pz_22
             set
             {
                 if (DateTime.Now.Year - value.Year <= 4)
-                {
                     yearOfStudy = value;
-                }
             }
         }
         internal enum speciality_enum{Программист, Дизайнер, Банкир}
