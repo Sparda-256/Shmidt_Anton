@@ -9,7 +9,7 @@ namespace Pz_24
 {
     internal class GetAddress : Student
     {
-        public DateOnly ReleaseDate { get; set; }
+        public DateOnly ReleaseDate {get; set;}
         public GetAddress(){}
         public GetAddress(string name, string surname, string patronymic, DateTime dateOfBirth, DateTime yearOfStudy, speciality_enum speciality, DateOnly ReleaseDate) : base(name, surname, patronymic, dateOfBirth, yearOfStudy, speciality)
         {
