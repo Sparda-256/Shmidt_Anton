@@ -29,13 +29,13 @@
             <MenuItem Header="О программе" Click="About_Click"/>
         </Menu>
         <WrapPanel DockPanel.Dock="Top">
-            <Button Width="30" Height="30" ToolTip="Курсив">
+            <Button Width="30" Height="30" ToolTip="Курсив" Click="Italic_Click">
                 <Image Source="C:\Users\79228\source\repos\Shmidt_Anton\Pz_26_Text_Editor\Icons\italic_em_emphasis_format_editor_tool_icon_145968.png"/>
             </Button>
-            <Button Width="30" Height="30" ToolTip="Полужирный">
+            <Button Width="30" Height="30" ToolTip="Полужирный" Click="Bold_Click">
                 <Image Source="C:\Users\79228\source\repos\Shmidt_Anton\Pz_26_Text_Editor\Icons\bold_format_editor_tool_icon_146015.png"/>
             </Button>
-            <Button Width="30" Height="30" ToolTip="Подчёркнутый">
+            <Button Width="30" Height="30" ToolTip="Подчёркнутый" Click="Underline_Click">
                 <Image Source="C:\Users\79228\source\repos\Shmidt_Anton\Pz_26_Text_Editor\Icons\underline_format_editor_tool_icon_145920.png"/>
             </Button>
         </WrapPanel>

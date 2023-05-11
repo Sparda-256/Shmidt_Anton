@@ -27,23 +27,20 @@ namespace TextEditor
         }
         private void escButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Close(); // закрытие окна
+            this.Close();
         }
         private void New_Click(object sender, RoutedEventArgs e)
         {
-            // Создать новый документ
             richTextBox.Document = new FlowDocument();
         }
 
         private void Open_Click(object sender, RoutedEventArgs e)
         {
-            // Открыть диалоговое окно выбора файла
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
 
             if (openFileDialog.ShowDialog() == true)
             {
-                // Открыть файл и загрузить его содержимое в RichTextBox
                 string fileName = openFileDialog.FileName;
                 string fileText = File.ReadAllText(fileName);
                 richTextBox.Document = new FlowDocument(new Paragraph(new Run(fileText)));
@@ -52,39 +49,34 @@ namespace TextEditor
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-            // Открыть диалоговое окно сохранения файла
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
-
+            saveFileDialog.InitialDirectory = @"C:\Users\79228\source\repos\Shmidt_Anton\Pz_26_Text_Editor\data";
             if (saveFileDialog.ShowDialog() == true)
             {
-                // Сохранить содержимое RichTextBox в файл
                 string fileName = saveFileDialog.FileName;
                 File.WriteAllText(fileName, new TextRange(richTextBox.Document.ContentStart, richTextBox.Document.ContentEnd).Text);
             }
         }
 
+
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
-            // Удалить содержимое RichTextBox
             richTextBox.Document = new FlowDocument();
         }
         private void richTextBox_PreviewKeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Tab)
             {
-                // Вставляем символ табуляции
                 TextPointer caret = richTextBox.CaretPosition;
                 caret.InsertTextInRun("\t");
 
-                // Перемещаем курсор на следующую позицию
                 richTextBox.CaretPosition = caret.GetPositionAtOffset(1);
                 e.Handled = true;
             }
         }
         private void Italic_Click(object sender, RoutedEventArgs e)
         {
-            // Переключить курсивное форматирование для выбранного текста
             var currentValue = richTextBox.Selection.GetPropertyValue(Inline.FontStyleProperty);
             if (currentValue != DependencyProperty.UnsetValue && currentValue.Equals(FontStyles.Italic))
             {
@@ -98,7 +90,6 @@ namespace TextEditor
 
         private void Bold_Click(object sender, RoutedEventArgs e)
         {
-            // Переключить жирное форматирование для выбранного текста
             var currentValue = richTextBox.Selection.GetPropertyValue(Inline.FontWeightProperty);
             if (currentValue != DependencyProperty.UnsetValue && currentValue.Equals(FontWeights.Bold))
             {
@@ -111,7 +102,6 @@ namespace TextEditor
         }
         private void Underline_Click(object sender, RoutedEventArgs e)
         {
-            // Переключить подчеркивание для выбранного текста
             var currentValue = richTextBox.Selection.GetPropertyValue(Inline.TextDecorationsProperty);
             if (currentValue != DependencyProperty.UnsetValue && currentValue.Equals(TextDecorations.Underline))
             {
