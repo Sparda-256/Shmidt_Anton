@@ -130,12 +130,13 @@ namespace Pz_25_Calculator
         {
             Regex regex = new Regex(@"([-+]?\d*\.?\d+)([+\-*/])([-+]?\d*\.?\d+)");
             MatchCollection matches = regex.Matches(expression);
-            double result = 0;
-            foreach (Match match in matches)
+            while (matches.Count > 0)
             {
+                Match match = matches[0];
                 double left = double.Parse(match.Groups[1].Value);
                 double right = double.Parse(match.Groups[3].Value);
                 string op = match.Groups[2].Value;
+                double result;
                 switch (op)
                 {
                     case "+":
@@ -150,8 +151,11 @@ namespace Pz_25_Calculator
                     case "/":
                         result = left / right;
                         break;
+                    default:
+                        throw new ArgumentException($"Неизвестная операция: {op}");
                 }
-                expression = expression.Replace(match.Value, result.ToString());
+                expression = expression.Substring(0, match.Index) + result.ToString() + expression.Substring(match.Index + match.Length);
+                matches = regex.Matches(expression);
             }
             try
             {
@@ -159,7 +163,6 @@ namespace Pz_25_Calculator
             }
             catch (FormatException)
             {
-                Console.WriteLine("Некорректный формат");
                 return double.NaN;
             }
         }
