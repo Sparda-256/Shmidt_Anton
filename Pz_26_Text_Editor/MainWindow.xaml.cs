@@ -108,7 +108,7 @@ namespace TextEditor
             public ViewModel()
             {
                 Files = new ObservableCollection<string>();
-                string[] fileEntries = Directory.GetFiles(@"C:\Users\79228\source\repos\Shmidt_Anton\Pz_26_Text_Editor\data\", "*.txt");
+                string[] fileEntries = Directory.GetFiles(@"C:\Users\79228\source\repos\Shmidt_Anton\Pz_26_Text_Editor\data\","*.txt");
                 foreach (string fileName in fileEntries)
                 {
                     Files.Add(Path.GetFileName(fileName));
